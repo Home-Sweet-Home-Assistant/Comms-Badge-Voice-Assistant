@@ -1,0 +1,4357 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2707af09-9d08-44c7-8250-97305a1da354")
+	(paper "A" portrait)
+	(title_block
+		(title "Comms Badge Voice Assistant")
+		(date "2024-03-02")
+		(rev "0.1.1")
+		(company "Home Sweet Home Assistant")
+	)
+	(lib_symbols
+		(symbol "Comms Badge Voice Assistant Project:+BATT"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:-BATT"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "-BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:DW01A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U302"
+				(at 0.2411 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DW01"
+				(at 0.2411 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DW01A:SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007091535_PJSEMI-DW01_C686633.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC #" "C686633"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. Part #" "DW01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey #" "NA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser #" "NA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.0610"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DW01A_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "OD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "OC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "TD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DW01A_1_0"
+				(text "Lithium Protection"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:MCP73831-2-OT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP73831-2-OT"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+				(at -3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery charger lithium"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP73831-2-OT_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP73831-2-OT_1_1"
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "V_{BAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Comms Badge Voice Assistant Project:VBUS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 124.46 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e026ff6-166d-49aa-a6fe-2b7ca5d34b27")
+	)
+	(junction
+		(at 101.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f979e18-52f2-40d3-a2ce-8e4ba1c4dda7")
+	)
+	(junction
+		(at 115.57 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4e9a16-7adf-4170-8e00-2625a482c5e2")
+	)
+	(junction
+		(at 77.47 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c25b9500-5f08-4541-a175-8eaef728980c")
+	)
+	(junction
+		(at 101.6 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d00efc07-f5ad-42fa-a088-2ad8ddef7c57")
+	)
+	(junction
+		(at 77.47 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef494a11-d5c6-4e4c-9d6c-a0e4248ec719")
+	)
+	(no_connect
+		(at 81.28 153.67)
+		(uuid "9f768065-27a9-48a2-af2a-707decd9c5ba")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03404007-ada1-4756-bdd9-96f0e9bd9965")
+	)
+	(wire
+		(pts
+			(xy 64.77 161.29) (xy 77.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067f6349-b682-4261-a897-d19fab371df2")
+	)
+	(wire
+		(pts
+			(xy 90.17 100.33) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a9fe1d-3606-4c99-9db4-59e26e02883c")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 124.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ead2fa0-959d-4969-9aa9-821c3df36d20")
+	)
+	(wire
+		(pts
+			(xy 64.77 142.24) (xy 64.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d09ac1e-26c9-4d8c-b918-a7b8b9a57cfd")
+	)
+	(wire
+		(pts
+			(xy 116.84 161.29) (xy 116.84 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3137f0e4-f621-4c14-9768-fd5856658d3e")
+	)
+	(wire
+		(pts
+			(xy 77.47 146.05) (xy 81.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4278b356-6dcf-49bd-9106-194dc4111254")
+	)
+	(wire
+		(pts
+			(xy 120.65 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d7d632-7eae-452c-925d-1a170865cf5d")
+	)
+	(wire
+		(pts
+			(xy 111.76 161.29) (xy 116.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cbc5ce-f40b-4543-870c-46b42a0b8dbf")
+	)
+	(wire
+		(pts
+			(xy 77.47 146.05) (xy 77.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4b6e78-37f9-4cb9-946d-f8415e56be75")
+	)
+	(wire
+		(pts
+			(xy 101.6 105.41) (xy 101.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e620a6-f0a9-4f0f-b7d9-2d20a61f8f41")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662923fc-c79a-4056-9a6f-d293d9f930f4")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ec2b6e-e5ba-4b43-9ef9-a4f6c86530c5")
+	)
+	(wire
+		(pts
+			(xy 74.93 146.05) (xy 77.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8af8d8-dff7-47db-807e-84de76f5ffd3")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df2d6bb-c278-4381-954f-f5fa9b333468")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0989a8-f8bd-4870-9b51-b0ee0de0f1f4")
+	)
+	(wire
+		(pts
+			(xy 124.46 170.18) (xy 121.92 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8427ec64-b8a0-4a20-ad93-98bbf41f744d")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e53af35-ac0c-4df1-b2bd-c9343dcde5fc")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921e9fea-ba22-40a7-bfce-bc04ff1fc4ac")
+	)
+	(wire
+		(pts
+			(xy 106.68 170.18) (xy 111.76 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e3448e-b479-401b-8336-4739d408e0c1")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f69080-803d-45e3-a1b8-441e6247d940")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e74896-cdff-49eb-890e-6b72df7f7012")
+	)
+	(wire
+		(pts
+			(xy 134.62 158.75) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a0db84-b84d-4bf3-875d-44a47dd5de11")
+	)
+	(wire
+		(pts
+			(xy 90.17 110.49) (xy 101.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5858b5f-90bc-468c-bfd9-053eeb53fc16")
+	)
+	(wire
+		(pts
+			(xy 64.77 161.29) (xy 64.77 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d65229-f897-48ae-afaf-bdfe00bf9312")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93c82c9-9bb7-43af-b71e-db4c635f5e52")
+	)
+	(wire
+		(pts
+			(xy 111.76 146.05) (xy 113.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3645ad9-d82c-4620-86ef-1a4d9d4e3e7a")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba311c70-f689-46d7-8bfd-1463358d4556")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb46708a-cfc6-4e96-9c40-bf228f506beb")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf09ead8-64ab-4006-9f1f-44beb3fcf6f7")
+	)
+	(wire
+		(pts
+			(xy 134.62 146.05) (xy 134.62 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df97a771-07c7-44b6-bbbe-3e32efc79d6e")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e373c0d4-c304-4a5f-ba70-ac37a4cb1f2e")
+	)
+	(wire
+		(pts
+			(xy 64.77 146.05) (xy 67.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54eaee9-e8d8-4f40-a14c-39e98ee08434")
+	)
+	(wire
+		(pts
+			(xy 90.17 110.49) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7a1244-b110-4b6e-acd1-c16dc3e36e70")
+	)
+	(wire
+		(pts
+			(xy 111.76 153.67) (xy 127 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed8668d-96e8-4aed-b1f8-3a43e17b1269")
+	)
+	(wire
+		(pts
+			(xy 77.47 156.21) (xy 77.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0ff429-d9ae-4ddd-8d3c-2b402984e093")
+	)
+	(wire
+		(pts
+			(xy 77.47 161.29) (xy 81.28 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efebbd2b-0f8e-4eb6-9c5e-9268b377d3ed")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99999fc-81fa-4cbd-a316-a38e57e6ad53")
+	)
+	(wire
+		(pts
+			(xy 124.46 170.18) (xy 124.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb1448f-9161-4a21-95fd-d4238ca22603")
+	)
+	(rectangle
+		(start 52.07 128.27)
+		(end 148.59 180.34)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4be9b31a-548a-403d-8049-499ca30a9814)
+	)
+	(rectangle
+		(start 52.07 67.31)
+		(end 148.59 124.46)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b40a5741-de3b-472e-b095-f4d1f9a69ec1)
+	)
+	(text_box "Fast charge current regulation can be scaled by placing a programming resistor (R_{PROG}) from the PROG input to VSS. The program resistor and the charge current are calculated using the following equation:\n\nI_{REG} = 1000V / R_{PROG}\n\nWhere: \n  R_{PROG} = kOhms\n  I_{REG} = mA\n[^1]\n\nA 2K resistor results in a 500mA charging rate."
+		(exclude_from_sim no)
+		(at 15.24 82.55 0)
+		(size 33.02 41.91)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19afa90a-2c73-4e9c-b30f-653d9572ea6f")
+	)
+	(text_box "Normally, based on the Typical Application Circuit, the mosfets connected to the OC and OD pins are also connected together and even frequently use a dual mosfet to cut down on components. Because the DW01 will be used in conjuction with the MCP73831, here the Overcharge Protection and Overdischarge Protection are separated and use unconnected mosfets.\n\nThe Overcharge Protection cuts off the flow from the Vbat pin of the MCP73831 to the positive terminal of the battery when the voltage reaches 4.2V.\n\nThe Overdischarge Protection is connected between the Load of the running components and the negative battery terminal to break the circuit and stop all activity if the battery reaches a low voltage of 2.4V."
+		(exclude_from_sim no)
+		(at 152.4 128.27 0)
+		(size 46.99 52.07)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51cd1456-a914-4664-ac62-b1489b886dfd")
+	)
+	(text_box "Based on the Typical Application Circuit on page 3 of the DW01-P_DataSheet_V10.pdf datasheet."
+		(exclude_from_sim no)
+		(at 15.24 128.27 0)
+		(size 33.02 11.43)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54e4ecfc-b05f-4a86-a149-8ecd0909ef70")
+	)
+	(text_box "The state of the STAT pin is HIGH when in \"Charge Complete - Standby\" state and LOW when in \"Preconditioning\", \"Constant-Current Fast Charge\", or \"Constant Voltage\" states.\n\nThe CHG_STAT pin is connected to the Microcontroller which will change the Status LED to indicate red for charging and green for fully charged."
+		(exclude_from_sim no)
+		(at 152.4 67.31 0)
+		(size 46.99 20.32)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e0a8ac9-bbb2-4e55-921d-99402a641f32")
+	)
+	(text_box "[^1] MCP73831-Family-Data-Sheet-DS20001984H.pdf (page 15)"
+		(exclude_from_sim no)
+		(at 16.51 234.95 0)
+		(size 74.93 27.94)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "66e39739-3806-426f-97c7-ea8029469bf1")
+	)
+	(text_box "Based on the Typical Application schematic on page 1 of the MCP73831 Family Data Sheet."
+		(exclude_from_sim no)
+		(at 15.24 67.31 0)
+		(size 33.02 11.43)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a87c2e30-af53-47fb-9f55-6d9790af722e")
+	)
+	(text_box "Mosfet Considerations:\n\nExpected Charge Current: 500mA\nExpected Max Load Current: 600mA+\n\nMCP73831:\nSTAT Pin High Output Voltage: VDD-0.4 - VDD-0.4-1\nSTAT Pin Low Output Voltage: 0.4 - 1V\n\nDW01:\nOD & OC Pin Output \"H\" Voltage: VCC-0.1 - VCC-0.02\nOD & OC Pin Output \"L\" Voltage: 0.1 - 0.5V\n"
+		(exclude_from_sim no)
+		(at 152.4 91.44 0)
+		(size 46.99 33.02)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2fcf3b2-89c2-4612-bd09-daa37101381a")
+	)
+	(text "Charging Circuit"
+		(exclude_from_sim no)
+		(at 53.34 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4c80ca6-f43b-47c8-9779-4f3751eff398")
+	)
+	(text "Battery Protection"
+		(exclude_from_sim no)
+		(at 53.34 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0a41894-2465-4f75-ae8d-44281cae983c")
+	)
+	(global_label "Charge Ctrl"
+		(shape input)
+		(at 134.62 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4061fc07-5456-4bff-9635-af759f8fe9f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 132.0583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Charge Ctrl"
+		(shape output)
+		(at 118.11 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df89223d-4f5f-4fd3-831e-ce7cef7fe880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1017 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "CHG_STAT"
+		(shape output)
+		(at 116.84 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d40e2791-355c-44e4-a6b8-a8d937434e6d")
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:R")
+		(at 71.12 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ba6df08-1d65-4d67-b36f-a0b55f1bb3de")
+		(property "Reference" "R2"
+			(at 71.12 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 71.12 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-07100RL_C106232.pdf"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C106232"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "RC0402FR-07100RL"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "311-100LRCT-ND"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "603-RC0402FR-07100RL"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0007"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c148359-600d-4f02-8f2f-315515f7e98e")
+		)
+		(pin "2"
+			(uuid "31246511-15ca-45fe-98d0-951310f4b489")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "R305")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:GND")
+		(at 101.6 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8fdad6-ab92-4150-8f88-dffd47e98145")
+		(property "Reference" "#PWR06"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be4bdf31-590f-4798-981c-19717312ed52")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:R")
+		(at 90.17 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "376fd39e-bc9a-40f7-bfa6-4f3b283a0f4f")
+		(property "Reference" "R1"
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2K"
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.392 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-072KL_C60488.pdf"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C60488"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "RC0402FR-072KL"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "311-2KLRCT-ND"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "603-RC0402FR-072KL"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0007"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3268c0bf-315d-4aa2-8b29-f0d28894845a")
+		)
+		(pin "2"
+			(uuid "21fe54d8-b79d-44bd-9cd5-aa4970c137cc")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:GND")
+		(at 129.54 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5400c09c-44c7-4c58-998f-dc430bdbad39")
+		(property "Reference" "#PWR09"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5aaa9ee-10bf-480e-acc0-d887f050d19b")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:GND")
+		(at 87.63 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "603ac591-7a9b-46ad-bbbd-a1d0edabcf0d")
+		(property "Reference" "#PWR03"
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2111918e-fc3a-4b00-a839-9ff1d5da4677")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:C")
+		(at 95.25 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "670046c7-d243-47c2-82a6-65be8bac7ea5")
+		(property "Reference" "C1"
+			(at 95.25 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 95.25 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 87.3252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081617_Murata-Electronics-GRM155R61A475KEAAD_C77004.pdf"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C77004"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "GRM155R61A475KEAAD"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "NA"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "NA"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0147"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1766fe07-fd17-4d6a-b61b-a239ac11499c")
+		)
+		(pin "2"
+			(uuid "f29d7a67-3115-4af6-9865-db95f655a866")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:+BATT")
+		(at 134.62 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4107f5-d615-44a1-b148-1992f39f4248")
+		(property "Reference" "#PWR013"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 138.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4fed1f0-e91f-4cdd-ac68-4018d5d5726e")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:C")
+		(at 121.92 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c5d73b-ad20-41ff-a484-21ccf51001a1")
+		(property "Reference" "C2"
+			(at 121.92 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 121.92 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 118.11 87.3252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081617_Murata-Electronics-GRM155R61A475KEAAD_C77004.pdf"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C77004"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "GRM155R61A475KEAAD"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "NA"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "NA"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0147"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0143936a-bd89-418d-b58d-633240d4b954")
+		)
+		(pin "2"
+			(uuid "d10393ed-c519-414d-90d9-950c03f50fbe")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:VBUS")
+		(at 101.6 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a352e6f-bfe2-4145-8afd-42b3215b9db3")
+		(property "Reference" "#PWR05"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3047e64d-3a3c-4c11-81ea-e7f2975eab40")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:-BATT")
+		(at 64.77 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d785658-bfb8-44c9-b7d8-96324038470f")
+		(property "Reference" "#PWR04"
+			(at 64.77 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d7a7cad-4f21-4653-b5a1-242fa0636b45")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:2N7002")
+		(at 116.84 167.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be29d5c4-c5bf-4a8b-afc9-836141555cd9")
+		(property "Reference" "Q1"
+			(at 116.84 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 116.84 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 118.745 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C20917"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "AO3400A"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "785-1000-1-ND"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "NA"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0724"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53b2c688-5a02-43e5-be5c-a8e0fda76654")
+		)
+		(pin "2"
+			(uuid "e6d01b48-8918-40df-9260-bf3051dd22f5")
+		)
+		(pin "3"
+			(uuid "95710484-caf5-4b59-a8b3-963b2d786b2c")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "Q203")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "Q303")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:2N7002")
+		(at 132.08 153.67 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c44d35-3b4e-4aad-994c-9135fbd0ff19")
+		(property "Reference" "Q1"
+			(at 137.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 137.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 137.16 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C20917"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "AO3400A"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "785-1000-1-ND"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "NA"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0724"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4ca869b-29a7-4a97-b27e-2895d4b9dc6f")
+		)
+		(pin "2"
+			(uuid "9a3dd35d-2286-447e-aa0f-195568d2b3ba")
+		)
+		(pin "3"
+			(uuid "4023937e-7e7a-45c2-bbb0-20c555246d7c")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "Q202")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "Q302")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:-BATT")
+		(at 124.46 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c469eef3-8929-425a-893e-5dceae82cc34")
+		(property "Reference" "#PWR010"
+			(at 124.46 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a1a5d0-dce3-4b7e-8c6d-de3109362ddd")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:C_Small")
+		(at 77.47 153.67 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c56b9883-044e-4af2-b999-6577cdb35aa7")
+		(property "Reference" "C203"
+			(at 74.93 152.3936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 74.93 154.9336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-GRM155R61H104JE14D_C426067.pdf"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C426067"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "GRM155R61H104JE14D"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "490-16356-1-ND"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "81-GRM155R61H104JE4D "
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0068"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78ea3226-1c0f-47c6-9111-c136d0f68a09")
+		)
+		(pin "2"
+			(uuid "a3befe2e-c343-4f32-828c-999c9548f00e")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "C303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:+BATT")
+		(at 64.77 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1ea7b14-03af-44a2-ade5-6198bd150776")
+		(property "Reference" "#PWR01"
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "165cb463-6b06-4b06-8a90-b91248fb5cab")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:MCP73831-2-OT")
+		(at 101.6 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db274cd9-9e6d-4895-9d2f-c26110ecc999")
+		(property "Reference" "U1"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP73831T-2ATI/OT"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Microchip-Tech-MCP73831T-2ATI-OT_C14879.pdf"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C14879"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "MCP73831T-2ATI/OT"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "MCP73831T-2ATI/OTCT-ND"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "579-MCP73831T-2ATIOT"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.0548"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d9d0f0-7745-487f-a391-1cd4c667f33c")
+		)
+		(pin "2"
+			(uuid "da9a7120-3f38-4c8a-8474-95eda57150a7")
+		)
+		(pin "3"
+			(uuid "3d692a23-02d8-4b8a-89d8-a9de61111e20")
+		)
+		(pin "4"
+			(uuid "08f8c0f7-7830-4c77-8d77-968cb3df8396")
+		)
+		(pin "5"
+			(uuid "22887ade-b339-4c40-9cd5-aa8270bf345b")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:DW01A")
+		(at 96.52 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca6a8c2-31f5-44e3-8b05-bb364b27eaf9")
+		(property "Reference" "U2"
+			(at 96.7611 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DW01"
+			(at 96.7611 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DW01A:SOT23-6"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007091535_PJSEMI-DW01_C686633.pdf"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C686633"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "DW01"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "NA"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "NA"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0610"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d526a0a4-42bf-4977-900c-d73c574a9e67")
+		)
+		(pin "2"
+			(uuid "ab8b550d-744f-4756-b50a-f855ed6f792a")
+		)
+		(pin "3"
+			(uuid "90f19263-cb77-441e-a16d-0d567e59b6aa")
+		)
+		(pin "4"
+			(uuid "57c66a0b-5cb4-43fd-971f-973ac56aa763")
+		)
+		(pin "5"
+			(uuid "30391d07-60cc-4cea-bef0-d61d207f742d")
+		)
+		(pin "6"
+			(uuid "e2a9767d-2dc5-4f4a-9cb0-5448fe7d1179")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "U202")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "U302")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:GND")
+		(at 106.68 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21338a1-0cbb-4522-810f-3fb0da651578")
+		(property "Reference" "#PWR0311"
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc8f29f6-f5bd-4587-9431-6de541aa00fd")
+		)
+		(instances
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comms Badge Voice Assistant Project:R")
+		(at 116.84 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e63a6f-0598-4c7d-bcb5-1c246dbfc98f")
+		(property "Reference" "R7"
+			(at 116.84 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 116.84 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.84 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-071KL_C106235.pdf"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C106235"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "RC0402FR-071KL"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "311-1.00KLRCT-ND"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "603-RC0402FR-071KL"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0007"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26287c89-56f2-4f75-9181-e3446151ae2f")
+		)
+		(pin "2"
+			(uuid "36e64ad1-e62b-4c30-b377-57bbeb7022d7")
+		)
+		(instances
+			(project "LED Plasmid Bottle"
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/49124571-f0f2-4f3a-b22c-6c3d90e137a0/33791a35-0e34-479b-84b0-7b0147df3113"
+					(reference "R206")
+					(unit 1)
+				)
+			)
+			(project "Comms Badge Voice Assistant Project"
+				(path "/615e3260-ff62-492c-a651-02eeac1fdade/231a0e5c-3d9d-4633-902d-6da720a74176"
+					(reference "R306")
+					(unit 1)
+				)
+			)
+			(project "Li-Po Battery Charging & Protection"
+				(path "/7c69cb15-816e-4173-8879-fd6a8cc51361"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Crystal Space Bun Crowns"
+				(path "/80ca1a89-7fc0-4d2e-aa39-cc2a3d357b07"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
